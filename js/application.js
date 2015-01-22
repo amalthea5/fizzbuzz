@@ -1,16 +1,16 @@
 $(document).ready(function() {
 	for (var i=1; i <=100; i++) {
 		if((i%3==0) && (i%5==0)) {
-			$(".content").append("fizzbuzz, ").addClass("fizzbuzz");
+			$(".content").append("<button class='fizzbuzz'>fizzbuzz</button>");
 		}
 		else if (i%3==0) {
-			$(".content").append("fizz, ").addClass("fizz");
+			$(".content").append("<button class='fizz'>fizz</button>");
 		}
 		else if (i%5==0) {
-			$(".content").append("buzz, ").addClass("buzz");
+			$(".content").append("<button class='buzz'>buzz</button>");
 		}
 		else {
-			$(".content").append(i +", ");
+			$(".content").append("<button class='plain'>" + i + " </button>");
 		}
 	}
 

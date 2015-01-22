@@ -1,26 +1,24 @@
 .fizz {
 	background-color: blue;
-		border-radius: 10px;
-	font-family: sans-serif;
-	height: 1.5em;
-	width: 4em;
-	color: grey;
 }
 
 .buzz {
 	background-color: yellow;
-		border-radius: 10px;
-	font-family: sans-serif;
-	height: 1.5em;
-	width: 4em;
-	color: grey;
 }
 
 .fizzbuzz {
 	background-color: green;
-		border-radius: 10px;
+}
+
+.plain {
+	background-color: white;
+}
+
+.fizz, .buzz, .fizzbuzz, .plain {
 	font-family: sans-serif;
-	height: 1.5em;
-	width: 4em;
-	color: grey;
+	color: black;
+	border: 1px solid black;
+	margin: 10px 10px;
+	height: 1.5rem;
+	width: 4rem;
 }
