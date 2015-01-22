@@ -1,0 +1,26 @@
+.fizz {
+	background-color: blue;
+		border-radius: 10px;
+	font-family: sans-serif;
+	height: 1.5em;
+	width: 4em;
+	color: grey;
+}
+
+.buzz {
+	background-color: yellow;
+		border-radius: 10px;
+	font-family: sans-serif;
+	height: 1.5em;
+	width: 4em;
+	color: grey;
+}
+
+.fizzbuzz {
+	background-color: green;
+		border-radius: 10px;
+	font-family: sans-serif;
+	height: 1.5em;
+	width: 4em;
+	color: grey;
+}
