@@ -1,5 +1,14 @@
 $(document).ready(function() {
-	for (var i=1; i <=100; i++) {
+	$('#content').keyup(function(event) {
+		if(event.keyCode == 13) {
+			event.preventDefault();
+			$('#button').click();
+		};
+	$('#button').click(function() {
+	event.preventDefault();
+		var value = +$('input#number').val();
+
+	for (var i=1; i <=value; i++) {
 		if((i%3==0) && (i%5==0)) {
 			$(".content").append("<button class='fizzbuzz'>fizzbuzz</button>");
 		}
@@ -15,3 +24,5 @@ $(document).ready(function() {
 	}
 
 });
+
+
