@@ -4,8 +4,10 @@ $(document).ready(function() {
 			event.preventDefault();
 			$('#button').click();
 		};
+	}
+
 	$('#button').click(function() {
-	event.preventDefault();
+		event.preventDefault();
 		var value = +$('input#number').val();
 
 	for (var i=1; i <=value; i++) {
