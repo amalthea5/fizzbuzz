@@ -1,13 +1,13 @@
 $(document).ready(function() {
-	$('#content').keyup(function(event) {
-		if(event.keyCode == 13) {
-			event.preventDefault();
-			$('#button').click();
-		}
-	})
+	//$('#content').keyup(function(event) {
+		//if(event.keyCode == 13) {
+			//event.preventDefault();
+			//$('#button').click();
+		//}
+	//});
 
-	$('#button').click(function() {
-		event.preventDefault();
+	$('form').submit(function(e) {
+		e.preventDefault();
 		var value = +$('input#number').val();
 
 	for (var i=1; i <=value; i++) {
