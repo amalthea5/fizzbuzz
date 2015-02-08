@@ -2,8 +2,9 @@ $(document).ready(function() {
 	$('form').submit(function(e) {
 		e.preventDefault();
 		var value = +$('input#number').val();
-		if(value = NaN) {
-			alert("Please enter a number from 1 - 100");
+		console.log ('value');
+		if(value == NaN) {
+			alert("Please enter a number from 1 - 100")
 			}
 		else {
 			for (var i=1; i <=value; i++) {
