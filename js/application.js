@@ -3,8 +3,8 @@ $(document).ready(function() {
 		if(event.keyCode == 13) {
 			event.preventDefault();
 			$('#button').click();
-		};
-	}
+		}
+	})
 
 	$('#button').click(function() {
 		event.preventDefault();
@@ -25,6 +25,5 @@ $(document).ready(function() {
 		}
 	}
 
-});
-
-
+	})
+};
